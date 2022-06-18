@@ -1,0 +1,20 @@
+html{
+    background-color: #e5e5e5;
+}
+body{
+    margin: 0;
+}
+/***** diseño de la cabecera ******/
+#conteiner{
+  background-color: rgb(145, 52, 16) ;
+  padding: 0;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+    color: #04071e;
+    font-size: 40px;
+}
