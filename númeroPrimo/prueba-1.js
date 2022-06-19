@@ -1,21 +1,26 @@
+let lowerNumber = parseInt(document.querySelector("#num1").value);
+let higherNumber = parseInt(document.querySelector("#num2").value);
 let results = [];
 const buttonResult = document.querySelector(".result");
-let a = parseInt(document.querySelector("#num1").value);
 
 function primeNumbers() {
-  console.log(a);
-  console.log(b);
-  for (let i = a; i <= b; i++) {
-    if (i % 2 == 0) {
+  for (let i = lowerNumber; i <= higherNumber; i++) {
+    let flag = 0;
+
+    for (let j = 2; j < i; j++) {
+      if (i % j == 0) {
+        flag = 1;
+        break;
+      }
+    }
+
+    if (i > 1 && flag == 0) {
       results.push(i);
     }
   }
-  alert("Los números primos son " + results);
-  console.log(results);
+  alert(
+    `The prime numbers between ${lowerNumber} and ${higherNumber} are:` +
+      results
+  );
 }
-
-buttonResult.addEventListener("click", function () {
-  primeNumbers();
-  document.getElementById("num1").value = "";
-  document.getElementById("num2").value = "";
-});
+buttonResult.addEventListener("click", primeNumbers);
