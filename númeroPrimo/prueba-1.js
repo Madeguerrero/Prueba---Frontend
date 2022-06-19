@@ -1,21 +1,18 @@
-let a = document.querySelector("#firstNumber");
-let b = document.querySelector("#secondNumber");
-let buttonResult = document.querySelector("#buttonSummit");
+let results = [];
+const buttonResult = document.querySelector(".result");
 
-function primeNunmers() {
-  for (let a; a <= b; a++) {
-    let resultado = 0;
-    for (let n = 1; n <= a; n++) {
-      if (a % n == 0) {
-        resultado++;
-      }
-      if (resultado == 2) {
-        document.write("los números primos son " + a);
-      }
+function primeNumbers() {
+  let a = parseInt(document.querySelector("#num1").value);
+  let b = parseInt(document.querySelector("#num2").value);
+  console.log(a);
+  console.log(b);
+
+  for (let i = a; a <= b; a++) {
+    if (a % 1 == 0 && a % a == 0) {
+      results.push(a);
     }
   }
+  alert("Los números primos son " + results);
 }
 
-buttonResult.addEventListener("click", function () {
-  primeNunmers();
-});
+buttonResult.addEventListener("click", primeNumbers);
