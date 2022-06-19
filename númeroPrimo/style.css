@@ -6,7 +6,7 @@ body{
 }
 /***** diseño de la cabecera ******/
 #conteiner{
-  background-color: rgb(145, 52, 16) ;
+  background-color: rgb(16, 100, 145) ;
   padding: 0;
   width: 100%;
   height: 15vh;
@@ -18,7 +18,37 @@ h1{
     color: #04071e;
     font-size: 40px;
 }
-
-#conteinerNum{
-    margin-left:10px;
+h2{
+    margin-top: 0px;
+    
+    text-align: center;
 }
+h3{
+    margin-right: 300px;
+}
+input{
+   margin-left: 150px;
+}
+.result{
+   cursor: pointer;
+   padding: 10px;
+   margin: 15px;
+  margin-left: 170px;
+  
+}
+.result:hover{
+    background-color: blue;
+    color:white;
+    border-style: none;
+}
+#sectionNum{
+    background-color: rgb(158, 212, 190);
+    border-radius: 40px;
+    width: 50% ;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto ; /* vertical/horizontal*/
+}
+
