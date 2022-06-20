@@ -16,7 +16,7 @@ body{
 }
 h2{
     margin-top: 0px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     text-align: center;
 
 }
@@ -33,4 +33,16 @@ h2{
 }
 .boxTable{
 
+}
+#listServices{
+    background-color: aliceblue;
+    border-style: none;
+    border-radius: 5px;
+    width: 180%;
+    align-content: center;
+    margin-left: -180px;
+}
+.firtsB{
+    padding: 5px;
+    align-content: center; 
 }
