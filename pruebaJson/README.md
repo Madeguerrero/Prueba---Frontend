@@ -31,3 +31,5 @@ En este proyecto generaramos un script que con entradas que generen el siguiente
 - [ ] **El servicio con mayor cobertura (Usado en más localidades)**
 
 ## 3. Instrucciones de Uso
+
+para poder ejecutar el programa en un servidor local, clonar el repositorio, abrirlo en el editor de texto preferido, hacer click derecho y abrirlo en el service.

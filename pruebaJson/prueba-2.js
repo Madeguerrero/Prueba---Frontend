@@ -36,7 +36,7 @@ async function local() {
     }
 
     cell0.innerHTML += `
-       <td>${valueNew} </td>`;
+       <td>${mayorLimit} </td>`;
     row0.appendChild(cell0);
   });
 }

@@ -31,3 +31,5 @@ En matemáticas, un número primo es un número natural mayor que 1 que tiene ú
 - [ ] **Para el rango entre 1 y 10, los números primos serán 2,3,5 y 7**
 
 ## 3. Instrucciones de Uso
+
+para poder ejecutar el programa en un servidor local, clonar el repositorio, abrirlo en el editor de texto preferido, hacer click derecho y abrirlo en el service.
