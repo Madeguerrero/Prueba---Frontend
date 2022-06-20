@@ -31,16 +31,14 @@ h2{
     margin: 40px auto ; /* vertical/horizontal*/
 
 }
-.boxTable{
 
-}
 #listServices{
     background-color: aliceblue;
     border-style: none;
     border-radius: 5px;
     width: 180%;
     align-content: center;
-    margin-left: -180px;
+    margin-left: -200px;
 }
 .firtsB{
     padding: 5px;
